@@ -1,1 +1,12 @@
-$(function(){$(".modal-link").click(function(){var t=$(this).attr("href");return $(t).fadeIn(300),!1}),$(".modal__close, .modal__blackout").click(function(){return $(this).parents(".modal-wrapper").fadeOut(300),!1})});
+$( function () {
+	$('.modal-link').click(function() {
+		let modal = $(this).attr('href');
+		$(modal).fadeIn(300);
+		return false;
+	});
+
+	$('.modal__close, .modal__blackout').click(function() {
+		$(this).parents('.modal-wrapper').fadeOut(300);
+		return false;
+	});
+})

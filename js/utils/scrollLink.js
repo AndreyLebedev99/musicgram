@@ -1,1 +1,10 @@
-$(function(){$(".scroll-link").click(function(l){l.preventDefault();l=$(this).attr("href"),l=$(l).offset().top;$("body,html").animate({scrollTop:l},500),$(".header__block").removeClass("active"),$("html, body").removeClass("not-scroll")})});
+$(function () {
+		$('.scroll-link').click(function (event) {
+		event.preventDefault();
+		var id = $(this).attr('href'),
+			top = $(id).offset().top;
+		$('body,html').animate({ scrollTop: top }, 500);
+		$('.header__block').removeClass('active');
+		$('html, body').removeClass('not-scroll');
+	});
+})
