@@ -1,12 +1,1 @@
-$(function() {
-
-	$('.possibility__title').matchHeight({
-		byRow: false,
-	});
-
-	$('.possibility__description').matchHeight({
-		byRow: false,
-	});
-
-	// new WOW().init();   
-});
+$(function(){$(".possibility__title").matchHeight({byRow:!1}),$(".possibility__description").matchHeight({byRow:!1})});

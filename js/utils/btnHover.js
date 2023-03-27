@@ -1,15 +1,1 @@
-$(function () {
-	$('.btn_hover')
-		.on('mouseenter', function (e) {
-			var parentOffset = $(this).offset(),
-				relX = e.pageX - parentOffset.left,
-				relY = e.pageY - parentOffset.top;
-			$(this).find('span').css({ top: relY, left: relX })
-		})
-		.on('mouseout', function (e) {
-			var parentOffset = $(this).offset(),
-				relX = e.pageX - parentOffset.left,
-				relY = e.pageY - parentOffset.top;
-			$(this).find('span').css({ top: relY, left: relX })
-		});
-})
+$(function(){$(".btn_hover").on("mouseenter",function(t){var e=$(this).offset(),o=t.pageX-e.left,e=t.pageY-e.top;$(this).find("span").css({top:e,left:o})}).on("mouseout",function(t){var e=$(this).offset(),o=t.pageX-e.left,e=t.pageY-e.top;$(this).find("span").css({top:e,left:o})})});
