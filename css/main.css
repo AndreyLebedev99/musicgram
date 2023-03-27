@@ -285,7 +285,7 @@ header {
   margin-right: 0;
 }
 .main__links a img {
-  width: 100%;
+  width: 157px;
 }
 
 .main__tags {
@@ -348,7 +348,7 @@ header {
 }
 
 .main__img {
-  width: 100%;
+  width: 910px;
   position: relative;
   z-index: 2;
 }
@@ -508,7 +508,7 @@ header {
 }
 .possibilities__people img {
   position: absolute;
-  width: 100%;
+  width: 445px;
   top: 0;
   left: 0;
 }
@@ -658,7 +658,7 @@ header {
 }
 .step__img img {
   position: relative;
-  width: 100%;
+  width: 483px;
   z-index: 2;
 }
 
@@ -916,7 +916,7 @@ header {
   margin-bottom: 32px;
 }
 .advantages__subscribers-img img {
-  width: 100%;
+  width: 460px;
 }
 
 .advantages__subscribers-title {
@@ -1086,7 +1086,7 @@ header {
   margin-left: auto;
 }
 .for__icon img {
-  width: 100%;
+  width: 200px;
   margin: 0;
 }
 
@@ -1166,7 +1166,7 @@ header {
 }
 
 .article__img {
-  width: 100%;
+  width: 545px;
   margin-bottom: 24px;
   border-radius: 30px;
 }
@@ -1325,7 +1325,7 @@ header {
   position: relative;
 }
 .download__img img {
-  width: 100%;
+  width: 494px;
 }
 
 .download__star {
@@ -1384,6 +1384,9 @@ header {
 }
 .download__btns a {
   margin-right: 15px;
+  width: 157px;
+}
+.download__btns img {
   width: 157px;
 }
 .download__btns a:last-child {

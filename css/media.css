@@ -244,6 +244,10 @@
     width: 390px;
   }
 
+  .advantages__subscribers-img img {
+    width: 390px;
+  }
+
   .for__step-title {
     font-size: 21px;
   }
@@ -462,6 +466,10 @@
   .advantages__subscribers {
     width: 345px;
     margin-left: auto;
+  }
+
+  .advantages__subscribers-img img {
+    width: 345px;
   }
 
   .for__step-title {
@@ -873,6 +881,10 @@
     order: 2;
   }
 
+  .step__img img {
+    width: 290px;
+  }
+
   .step__info {
     width: 100%;
     -webkit-box-ordinal-group: 2;
@@ -964,6 +976,10 @@
 
   .advantages__subscribers hr {
     width: 40px;
+  }
+
+  .advantages__subscribers-img img {
+    width: 290px;
   }
 
   .for {
