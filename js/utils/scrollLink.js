@@ -1,5 +1,5 @@
 $(function () {
-	$('.scroll-link').click(function (event) {
+		$('.scroll-link').click(function (event) {
 		event.preventDefault();
 		var id = $(this).attr('href'),
 			top = $(id).offset().top;
