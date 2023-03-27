@@ -17,7 +17,8 @@ html.not-scroll, body.not-scroll {
   }
 
 body {
-  background: #2E09B1;
+  background: url(../img/body-bg.png) center center no-repeat;
+  background-size: 100% auto;
 
   color: #fff;
 }
@@ -75,9 +76,8 @@ label {
 
 .wrapper {
   position: relative;
-  background: url(../img/body-bg.png) center center no-repeat;
-  background-size: 100% auto;
 
+  background: #2E09B1;
 }
 
 .flex {
