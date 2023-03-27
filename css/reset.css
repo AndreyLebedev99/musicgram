@@ -1,0 +1,68 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: "Gilroy-Regular";
+	font-weight: 400;
+  }
+  
+  html, body {
+	overflow-x: hidden;
+	width: 100%;
+  }
+  html.not-scroll, body.not-scroll {
+	overflow: hidden;
+	height: 100vh;
+  }
+  
+  a {
+	display: block;
+	outline: none;
+	text-decoration: none;
+	-webkit-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+  }
+  
+  button {
+	display: block;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	-webkit-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+  }
+  
+  img {
+	display: block;
+	max-width: 100%;
+  }
+  
+  svg {
+	display: block;
+	-webkit-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+  }
+  
+  input,
+  textarea,
+  select {
+	display: block;
+	width: 100%;
+	border: none;
+	outline: none;
+	background: transparent;
+  }
+  
+  li {
+	display: block;
+	list-style: none;
+  }
+  
+  label {
+	display: block;
+  }

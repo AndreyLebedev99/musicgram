@@ -1,27 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  font-family: "Gilroy-Regular";
-  font-weight: 400;
-}
-
-html, body {
-  overflow-x: hidden;
-  width: 100%;
-}
-html.not-scroll, body.not-scroll {
-  overflow: hidden;
-  height: 100vh;
-}
-
-body {
-  color: #fff;
-
-  background: linear-gradient(0deg, rgba(4,1,15,1) 0%, rgba(47,9,176,1) 2%, rgba(47,9,176,1) 90%, rgba(190,27,75,0.7525603991596639) 100%);
-}
-
 .wrapper {
   position: relative;
   background: url(../img/body-bg.png) center center no-repeat;
@@ -56,57 +32,6 @@ body {
 .container_small {
   padding-left: 100px;
   padding-right: 100px;
-}
-
-a {
-  display: block;
-  outline: none;
-  text-decoration: none;
-  -webkit-transition: all ease 0.3s;
-  -o-transition: all ease 0.3s;
-  transition: all ease 0.3s;
-}
-
-button {
-  display: block;
-  cursor: pointer;
-  background: transparent;
-  border: none;
-  outline: none;
-  -webkit-transition: all ease 0.3s;
-  -o-transition: all ease 0.3s;
-  transition: all ease 0.3s;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-}
-
-svg {
-  display: block;
-  -webkit-transition: all ease 0.3s;
-  -o-transition: all ease 0.3s;
-  transition: all ease 0.3s;
-}
-
-input,
-textarea,
-select {
-  display: block;
-  width: 100%;
-  border: none;
-  outline: none;
-  background: transparent;
-}
-
-li {
-  display: block;
-  list-style: none;
-}
-
-label {
-  display: block;
 }
 
 header {
