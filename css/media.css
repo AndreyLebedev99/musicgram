@@ -35,6 +35,10 @@
 	  margin-left: -170px;
 	  margin-right: -120px;
 	}
+
+  .main__img {
+    width: 710px;
+  }
   
 	.main__animation {
 	  top: 64px;
@@ -226,6 +230,10 @@
 	.step__img {
 	  width: 433px;
 	}
+
+  .step__img img {
+    width: 433px;
+  }
   
 	.step_2,
   .step_3 {
@@ -403,6 +411,10 @@
 	  margin-left: 0;
 	  margin-right: 0;
 	}
+
+  .main__img {
+    width: 750px;
+  }
   
 	.main__animation {
 	  top: 64px;
@@ -430,6 +442,10 @@
 	.step__img {
 	  width: 400px;
 	}
+
+  .step__img img {
+    width: 400px;
+  }
   
 	.step_2 .step__info {
 	  margin-left: 0;
@@ -554,6 +570,10 @@
 	  width: 163px;
 	  border-radius: 25px 30px 15px 15px;
 	}
+
+  .main__img {
+    width: 710px;
+  }
   
 	.possibilities__content {
 	  padding: 40px;
@@ -578,6 +598,10 @@
 	.step__img {
 	  width: 280px;
 	}
+
+  .step__img img {
+    width: 280px;
+  }
   
 	.step__info {
 	  width: 310px;
