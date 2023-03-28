@@ -17,8 +17,7 @@ html.not-scroll, body.not-scroll {
   }
 
 body {  
-  background: url(../img/body-bg.png) center center no-repeat;
-  background-size: 100% 50%;
+  background: #2E09B1;
 
   color: #fff;
 }
@@ -76,7 +75,8 @@ label {
 
 .wrapper {
   position: relative;
-  background: #2E09B1;
+  background: url(../img/body-bg.png) center center no-repeat;
+  background-size: 100% 50%;
 }
 
 .flex {
@@ -957,7 +957,7 @@ header {
   bottom: -400px;
   z-index: -2;
   -webkit-animation-duration: 5s;
-  /* animation-duration: 5s; */
+  animation-duration: 5s;
 }
 
 .for__steps {
