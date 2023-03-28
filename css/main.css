@@ -16,9 +16,9 @@ html.not-scroll, body.not-scroll {
 	height: 100vh;
   }
 
-body {
+body {  
   background: url(../img/body-bg.png) center center no-repeat;
-  background-size: 100% auto;
+  background-size: 100% 50%;
 
   color: #fff;
 }
@@ -76,7 +76,6 @@ label {
 
 .wrapper {
   position: relative;
-
   background: #2E09B1;
 }
 
@@ -958,7 +957,7 @@ header {
   bottom: -400px;
   z-index: -2;
   -webkit-animation-duration: 5s;
-  animation-duration: 5s;
+  /* animation-duration: 5s; */
 }
 
 .for__steps {
