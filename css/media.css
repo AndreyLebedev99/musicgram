@@ -7,6 +7,10 @@
 	  padding-left: 50px;
 	  padding-right: 50px;
 	}
+
+	.wrapper {
+		background-size: 1550px 50%;
+	}
   
 	.header__logo {
 	  width: 140px;

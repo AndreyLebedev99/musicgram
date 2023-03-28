@@ -18,7 +18,6 @@ html.not-scroll, body.not-scroll {
 
 body {  
   background: #2E09B1;
-
   color: #fff;
 }
   
@@ -904,7 +903,6 @@ header {
   border: none;
   height: 1px;
   width: 80px;
-  margin-right: auto;
 }
 
 .advantages__subscribers-img {
@@ -916,8 +914,11 @@ header {
   width: 460px;
 }
 
+.advantages__subscribers-content hr {
+  justify-self: center;
+}
+
 .advantages__subscribers-title {
-  margin-right: 40px;
   font-size: 17px;
   line-height: 24px;
   font-family: "Gilroy-Semibold";
