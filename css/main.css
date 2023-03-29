@@ -13,7 +13,7 @@
 html, body {
 	overflow-x: hidden;
 	width: 100%;
-	cursor: default;
+  cursor: default;
   }
 html.not-scroll, body.not-scroll {
 	overflow: hidden;
@@ -22,7 +22,7 @@ html.not-scroll, body.not-scroll {
 
 body {  
   /* background: #2E09B1; */
-  background: #7b1982;
+  /* background: #7b1982; */
   color: #fff;
 }
   
@@ -106,7 +106,7 @@ label {
   width: 1490px;
   margin: 0 auto;
   position: relative;
-  z-index: 4;
+  /* z-index: 4; */
 }
 
 .container_small {
@@ -211,31 +211,37 @@ header {
   position: absolute;
   display: block;
   content: "";
+  border-radius: 50%;
   background: rgba(255, 255, 255, 0.25);
-  -webkit-filter: blur(125px);
-  filter: blur(125px);
+  -webkit-filter: blur(200px);
+  filter: blur(200px);
   width: 100%;
   height: 582px;
   left: -113px;
   top: -144px;
+  z-index: 6;
 }
 .main:after {
   position: absolute;
   display: block;
   content: "";
+  border-radius: 50%;
   background: #be1b4b;
-  -webkit-filter: blur(300px);
-  filter: blur(300px);
+  -webkit-filter: blur(200px);
+  filter: blur(200px);
   width: 100%;
   height: 1200px;
   left: 0;
   top: -600px;
+  z-index: 6;
 }
 
 .main__content {
   -webkit-box-align: end;
   -ms-flex-align: end;
   align-items: flex-end;
+  position: relative;
+  z-index: 7;
 }
 
 .main__info {
@@ -611,20 +617,23 @@ header {
   margin-left: -50px;
   animation: 15s linear 0s normal none infinite running rot;
   -webkit-animation: 15s linear 0s normal none infinite running rot;
-  z-index: -2;
 }
 .steps__circle:before {
   position: absolute;
   display: block;
   content: "";
   background: rgba(190, 27, 75, 0.7);
-  -webkit-filter: blur(300px);
-  filter: blur(300px);
+  -webkit-filter: blur(200px);
+  filter: blur(200px);
   border-radius: 800px;
   width: 1600px;
   height: 1600px;
   left: -800px;
   top: 0;
+  -webkit-backface-visibility: hidden;
+-moz-backface-visibility: hidden;
+-webkit-transform: translate3d(0, 0, 0);
+-moz-transform: translate3d(0, 0, 0);
 }
 
 .step {
@@ -956,14 +965,14 @@ header {
   position: absolute;
   display: block;
   background: rgba(190, 27, 75, 0.8);
-  -webkit-filter: blur(300px);
-  filter: blur(300px);
+  -webkit-filter: blur(200px);
+  filter: blur(200px);
   width: 1600px;
   height: 1200px;
   border-radius: 1600px;
   right: -1000px;
   bottom: -400px;
-  z-index: -2;
+  z-index: 7;
   -webkit-animation-duration: 5s;
   animation-duration: 5s;
 }
