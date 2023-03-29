@@ -17,6 +17,7 @@ html, body {
 html.not-scroll, body.not-scroll {
 	overflow: hidden;
 	height: 100vh;
+	cursor: default;
   }
 
 body {  
