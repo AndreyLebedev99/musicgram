@@ -608,8 +608,8 @@ header {
   height: 100px;
   margin-top: -50px;
   margin-left: -50px;
-  /* animation: 15s linear 0s normal none infinite running rot;
-  -webkit-animation: 15s linear 0s normal none infinite running rot; */
+  animation: 15s linear 0s normal none infinite running rot;
+  -webkit-animation: 15s linear 0s normal none infinite running rot;
   z-index: -2;
 }
 .steps__circle:before {
