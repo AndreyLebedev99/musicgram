@@ -13,11 +13,11 @@
 html, body {
 	overflow-x: hidden;
 	width: 100%;
+	cursor: default;
   }
 html.not-scroll, body.not-scroll {
 	overflow: hidden;
 	height: 100vh;
-	cursor: default;
   }
 
 body {  
