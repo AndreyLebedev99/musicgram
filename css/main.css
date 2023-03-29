@@ -20,7 +20,8 @@ html.not-scroll, body.not-scroll {
   }
 
 body {  
-  background: #2E09B1;
+  /* background: #2E09B1; */
+  background: #7b1982;
   color: #fff;
 }
   
@@ -74,7 +75,9 @@ li {
 label {
 	display: block;
 }
-
+.body-wrapper {
+  background: #2E09B1;
+}
 .wrapper {
   position: relative;
   background: url(../img/body-bg.png) center center no-repeat;
@@ -605,8 +608,8 @@ header {
   height: 100px;
   margin-top: -50px;
   margin-left: -50px;
-  animation: 15s linear 0s normal none infinite running rot;
-  -webkit-animation: 15s linear 0s normal none infinite running rot;
+  /* animation: 15s linear 0s normal none infinite running rot;
+  -webkit-animation: 15s linear 0s normal none infinite running rot; */
   z-index: -2;
 }
 .steps__circle:before {
