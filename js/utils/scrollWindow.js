@@ -23,7 +23,7 @@ $(function () {
 		// }
 		if (currentPos > (steps[2] - windowHeight) && currentPos < (steps[2] + windowHeight)) {
 
-			changeMargin('.step_3', steps[2], 'left')
+			changeMargin('.step_3', steps[2])
 			
 		}
 	})

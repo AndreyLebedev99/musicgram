@@ -22,7 +22,7 @@ html.not-scroll, body.not-scroll {
 
 body {  
   /* background: #2E09B1; */
-  /* background: #7b1982; */
+  background: #7b1982;
   color: #fff;
 }
   
@@ -240,8 +240,6 @@ header {
   -webkit-box-align: end;
   -ms-flex-align: end;
   align-items: flex-end;
-  position: relative;
-  z-index: 7;
 }
 
 .main__info {
@@ -249,7 +247,7 @@ header {
   padding-bottom: 35px;
   padding-top: 100px;
   position: relative;
-  z-index: 2;
+  z-index: 8;
 }
 
 .main__title {
@@ -351,7 +349,7 @@ header {
 .main__img-wrapper {
   width: 910px;
   position: relative;
-  z-index: 1;
+  z-index: 7;
   margin-left: -50px;
   margin-right: -160px;
 }
@@ -428,6 +426,8 @@ header {
   line-height: 100px;
   color: #fff;
   margin-bottom: 32px;
+  position: relative;
+  z-index: 9;
 }
 
 .section__subtitle {
@@ -435,6 +435,8 @@ header {
   -webkit-box-pack: start;
   -ms-flex-pack: start;
   justify-content: flex-start;
+  position: relative;
+  z-index: 9;
 }
 .section__subtitle span {
   display: block;
@@ -810,7 +812,7 @@ header {
 
 .advantages {
   position: relative;
-  z-index: 5;
+  z-index: 8;
   margin-top: -180px;
 }
 
@@ -984,6 +986,8 @@ header {
   -webkit-box-pack: start;
   -ms-flex-pack: start;
   justify-content: flex-start;
+  position: relative;
+  z-index: 9;
 }
 
 .for__step {
