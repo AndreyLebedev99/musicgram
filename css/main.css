@@ -22,7 +22,7 @@ html.not-scroll, body.not-scroll {
 
 body {  
   /* background: #2E09B1; */
-  background: #7b1982;
+  background: #751a85;
   color: #fff;
 }
   
@@ -358,6 +358,10 @@ header {
   width: 910px;
   position: relative;
   z-index: 2;
+}
+
+.main__img-mob {
+  display: none;
 }
 
 .main__animation {

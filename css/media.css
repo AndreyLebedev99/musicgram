@@ -820,24 +820,38 @@
 	  margin-bottom: 8px;
 	  width: 120px;
 	}
-  
+
+	.main__img {
+		display: none;
+	}
+
+	.main__img-mob {
+		display: block;
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 241px;
+	}
+	
+	.main__img-wrapper {
+	  width: 710px;
+	  margin-left: 0;
+	  margin-right: 0;
+	  /* position: absolute; */
+	  left: 0px;
+	  top: 30px;
+	}
+
 	.for__links a,
   .step__btns a {
 	  width: 120px;
 	}
   
-	.main__img-wrapper {
-	  width: 710px;
-	  margin-left: 0;
-	  margin-right: 0;
-	  position: absolute;
-	  left: -50px;
-	  bottom: -50px;
-	}
   
 	.main__animation {
-	  top: 64px;
-	  left: 113px;
+	  top: 32px;
+	  left: 50%;
+	transform: translateX(-50%);
 	  width: 217px;
 	  border-radius: 40px;
 	}
@@ -846,7 +860,7 @@
 	  overflow: hidden;
 	}
 	.main .container {
-	  padding-bottom: 620px;
+	  padding-bottom: 100px;
 	}
   
 	.header__menu li {
