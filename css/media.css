@@ -559,7 +559,7 @@
   }
   @media screen and (max-width: 768px) {
 	body {
-		background: #2E09B1;
+		/* background: #2E09B1; */
 	}
 	.container {
 	  width: 540px;
