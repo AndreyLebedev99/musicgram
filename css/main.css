@@ -21,8 +21,8 @@ html.not-scroll, body.not-scroll {
   }
 
 body {  
-  /* background: #2E09B1; */
-  background: #751a85;
+  background: #2E09B1;
+  /* background: #751a85; */
   color: #fff;
 }
   
@@ -207,8 +207,8 @@ header {
   padding-top: 20px;
   overflow-x: hidden;
 }
-.main:before {
-  position: absolute;
+.main-blur1 {
+  position: fixed;
   display: block;
   content: "";
   border-radius: 50%;
@@ -221,8 +221,8 @@ header {
   top: -144px;
   z-index: 6;
 }
-.main:after {
-  position: absolute;
+.main-blur2 {
+  position: fixed;
   display: block;
   content: "";
   border-radius: 50%;
