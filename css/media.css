@@ -77,6 +77,10 @@
 	  -ms-transform: scale(0.8);
 	  transform: scale(0.8);
 	}
+
+	.step_2 .step__signature {
+		font-size: 206px;
+	  }
   
 	.step_1 .step__img {
 	  margin-left: 50px;
@@ -243,6 +247,10 @@
   .step_3 {
 	  margin-top: -170px;
 	}
+
+	.step_2 .step__signature {
+		font-size: 192px;
+	  }
   
 	.advantages__info {
 	  width: 430px;
@@ -466,7 +474,7 @@
 	}
   
 	.step__signature {
-	  font-size: 150px;
+	  font-size: 150px !important;
 	}
   
 	.advantages__info {
@@ -626,6 +634,10 @@
 	.step_2 .step__info {
 	  margin-top: 90px;
 	}
+
+	.step_2 .step__signature {
+		font-size: 105px !important;
+	  }
   
 	.step_2, .step_3 {
 	  margin-top: -70px;
@@ -940,6 +952,12 @@
 	  left: -5px;
 	  bottom: 70px;
 	}
+
+	.step_2 .step__signature {
+		font-size: 80px !important;
+		display: flex;
+		justify-content: center;
+	  }
   
 	.step__description {
 	  margin-bottom: 16px;
