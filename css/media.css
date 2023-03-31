@@ -842,8 +842,7 @@
 	  top: 30px;
 	}
 
-	.for__links a,
-  .step__btns a {
+	.for__links a {
 	  width: 120px;
 	}
   
@@ -928,7 +927,18 @@
 	.steps {
 	  padding-top: 40px;
 	}
-  
+	.step__btns {
+		column-gap: 20px;
+		justify-content:center;
+	}
+	.step__btns a {
+		width: 200px;
+		margin-right: 0;
+	}
+	.step__btns a img {
+		width: 100%;
+	}
+
 	.step__img {
 	  width: 290px;
 	  margin-left: auto;
@@ -940,6 +950,7 @@
   
 	.step__img img {
 	  width: 290px;
+	  max-width: none;
 	}
   
 	.step__info {
@@ -947,6 +958,12 @@
 	  -webkit-box-ordinal-group: 2;
 	  -ms-flex-order: 1;
 	  order: 1;
+	}
+
+	.step_1 img,
+	.step_2 img,
+	.step_3 img {
+		width: 100%;
 	}
   
 	.step_1 .step__info {
@@ -957,14 +974,18 @@
 	  display: none;
 	}
 	.step_1 .step__img {
-	  margin-left: auto;
-	  margin-right: auto;
+		width: 100%;
+		/* margin-left: auto; */
+		/* margin-right: auto; */
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
 	.step_1 .step__img:before {
 	  width: 120px;
 	  height: 120px;
 	  left: -5px;
-	  bottom: 70px;
+	  bottom: 19%;
 	}
 
 	.step_2 .step__signature {
@@ -992,8 +1013,12 @@
 	  right: -30px;
 	}
 	.step_2 .step__img {
-	  margin-left: auto;
-	  margin-right: auto;
+		width: 100%;
+		/* margin-left: auto; */
+		/* margin-right: auto; */
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
   
 	.step_3 {
@@ -1003,8 +1028,12 @@
 	  margin: 0;
 	}
 	.step_3 .step__img {
-	  margin-left: auto;
-	  margin-right: auto;
+		width: 100%;
+		/* margin-left: auto; */
+		/* margin-right: auto; */
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
   
 	.advantages__content {
